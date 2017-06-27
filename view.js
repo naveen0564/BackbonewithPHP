@@ -2,7 +2,7 @@ var view =Backbone.View.extend({
 	el:"body",
 	events:
 	{
-			'click #Register':'addBook'  //	triggers when register is clicked or submitted
+			'click #Register':'addBook'  //	triggers when register is clicked or submitted to test
 
 	},
 	template:Handlebars.compile($("#book").html()),	//template
